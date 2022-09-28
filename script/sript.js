@@ -5,7 +5,7 @@ function calculateTime(){
     var hour = date.getHours();
     var minute = date.getMinutes();
     var ampm = hour >= 12 ? 'PM' : 'AM';
-    var dayNames = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
+    var dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
     hour = hour % 12;
     hour = hour ? hour : '12';
